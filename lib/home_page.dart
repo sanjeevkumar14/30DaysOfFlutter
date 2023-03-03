@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
           title: Text("Catalog App"),
           ),
         body: Center(
-          child: Text("Welcome to $days Day of Flutter by $name"),
+          child: Text("Welcome to the $days Day of Flutter by $name"),
       ),
       drawer: Drawer(),
     );
