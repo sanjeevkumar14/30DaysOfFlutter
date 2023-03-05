@@ -15,11 +15,11 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-          appBar: AppBar( 
-          title: Text("Catalog App"),
-          ),
-        body: Center(
-          child: Text("Welcome to the $days Day of Flutter by $name"),
+      appBar: AppBar(
+        title: Text("Catalog App"),
+      ),
+      body: Center(
+        child: Text("Welcome to the $days Day of Flutter by $name"),
       ),
       drawer: Drawer(),
     );
